@@ -1,0 +1,157 @@
+/* Reset */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+/* Nav bar */
+.menu{
+    background-color: rgb(49, 48, 48);
+    display: flex;
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    align-items: center;
+}
+
+.titulo{
+    width: 20%;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menuList{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    gap: 2%;
+}
+
+.menuOption{
+    padding-right: 5%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    text-justify: inter-word;
+}
+
+.navar{
+    width: 80%;
+}
+
+
+/* Footer */
+.derechos{
+    position: fixed;
+    bottom: 0;
+    background-color: rgb(49, 48, 48);
+    width: 100%;
+    text-align: center;
+    padding: 2%;
+    z-index: 2;
+}
+
+
+/* body */
+.imgText{
+    position: relative;
+    width: 90%;
+    left: 5%;
+    align-items: center;
+}
+
+.landing_img{
+    width: 100%;
+    position: absolute;
+}
+
+.overImageText{
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.514);
+    height: 70%;
+    position: relative;
+    top: 20%;
+    left: 10%;
+    width: 80%;
+    padding: 2%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    color: white;
+
+}
+
+.social{
+    width: 400px;
+    height: 250px;
+    z-index:1 ;
+    background-color: rgb(0, 0, 0);
+    margin-bottom: 5%;
+    gap: 5%;
+    font-size: xx-large;
+    text-align: center;
+
+}
+
+.socialContainer{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 5%;
+    width: 90%;
+    gap: 5%;
+}
+
+.socialImg{
+    height: 100%;
+}
+
+.galery{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.galeryImg{
+    width: 400px;
+}
+
+.galeryText{
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.322);
+    padding: 10px;
+    color: white;
+}
+
+.subtitulo{
+    position: relative;
+    top: 200px;
+    left: 10%;
+    width: 50%;
+    height: 20%;
+    z-index: 1;
+    color: rgb(10, 10, 10);
+    font-size: xx-large;
+
+}
+
+.galeryItem{
+    padding: 10px;
+}
+
+.vspaced{
+    position: relative;
+    margin-bottom: 500px;
+}
+
+.videoContainer{
+    position: relative;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
