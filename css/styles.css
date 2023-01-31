@@ -1,45 +1,9 @@
 /* Reset */
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
+
 
 
 /* Nav bar */
-.menu{
-    background-color: rgb(49, 48, 48);
-    display: flex;
-    position: fixed;
-    z-index: 2;
-    width: 100%;
-    align-items: center;
-}
 
-.titulo{
-    width: 20%;
-    text-align: center;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.menuList{
-    display: flex;
-    flex-wrap: wrap;
-    list-style: none;
-    gap: 2%;
-}
-
-.menuOption{
-    padding-right: 5%;
-    border: 2px solid rgb(255, 255, 255);
-    border-radius: 5px;
-    background-color: rgb(255, 255, 255);
-    text-justify: inter-word;
-}
-
-.navar{
-    width: 80%;
-}
 
 
 /* Footer */
