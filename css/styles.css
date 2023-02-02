@@ -3,7 +3,14 @@
 
 
 /* Nav bar */
+.titulo{
+    color: #ffffff;
+    padding: 2%;
+}
 
+.seleccionado{
+    background-color: #ffffffa8;
+}
 
 
 /* Footer */
@@ -87,9 +94,9 @@
 
 .galeryText{
     width: 400px;
-    background-color: rgba(255, 255, 255, 0.322);
+    background-color: rgb(0, 0, 0);
     padding: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .subtitulo{
@@ -99,9 +106,8 @@
     width: 50%;
     height: 20%;
     z-index: 1;
-    color: rgb(10, 10, 10);
+    color: rgb(255, 255, 255);
     font-size: xx-large;
-
 }
 
 .galeryItem{
@@ -118,4 +124,23 @@
     text-align: center;
     padding-bottom: 5%;
     padding-top: 2%;
+}
+
+.fondoDegrade{
+    background: linear-gradient(180deg, #020024 0%, #5b0d85 0%, #5500ff 100%);
+    background-attachment: fixed;
+}
+
+.espaciado{
+    padding: 2%;
+}
+
+
+/* medias */
+
+@media (hover:hover){
+    .jover:hover{
+        background-color: rgba(143, 143, 143, 0.178);
+        transition: 1s;
+    }
 }
